@@ -31,7 +31,7 @@ class Slackwolf
         /*
          * Set the default timezone in case it isn't configured in php.ini
          */
-        date_default_timezone_set(getenv('TIMEZONE'));
+        date_default_timezone_set(getenv('America/Los_Angeles'));
     }
 
     public function run()
