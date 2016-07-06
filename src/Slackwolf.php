@@ -45,7 +45,7 @@ class Slackwolf
          * Create our Slack client
          */
         $client = new SlackRTMClient($eventLoop);
-        $client->setToken(getenv('BOT_TOKEN'));
+        $client->setToken(getenv('236224839:AAFDJP7HIwbwjnkxgsCh7BC3iYACU-yNo6E'));
 
         /*
          * Setup command bindings
